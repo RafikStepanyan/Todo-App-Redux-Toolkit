@@ -1,0 +1,41 @@
+.details{
+  display: grid;
+  gap: 20px;
+}
+
+.details h2{
+  font-weight: 900;
+}
+
+.show1{
+  display: grid;
+  gap: 20px;
+  padding: 15px;
+  display: grid;
+  height: 250px;
+  background: lightgray;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.show1 div{
+  padding: 5px;
+  border-radius: 10px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.show1 div div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+ 
+.check{
+  width: 25px;
+  height: 25px;
+  accent-color: lightgreen;
+}
